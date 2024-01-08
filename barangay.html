@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="media-type" href="img/logo.png">
+    <link rel="stylesheet" href="css/h_style.css">
+    <title>eMerge Barangay</title>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bxl-google-cloud'></i>
+            <div class="logo-name"><span>e</span>Merge</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="index.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+            <li class="active"><a href="barangay.html"><i class='bx bx-home'></i>Barangay</a></li>
+            <li><a href="#"><i class='bx bx-map-pin'></i>Maps</a></li>
+            <li><a href="#"><i class='bx bx-user-pin'></i>Victim Tracking</a></li>
+            <li><a href="#"><i class='bx bx-file'></i>Assessment Reports</a></li>
+            
+            <li class="separator"></li> <!-- This will create the line -->
+            
+            <li><a href="#"><i class='bx bx-message-square-detail' ></i>Other Details</a></li>
+            <li><a href="#"><i class='bx bx-cog'></i>Settings</a></li>
+
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">10</span>
+            </a>
+            <a href="#" class="profile">
+                <i class='bx bxl-google-cloud'></i>
+            </a>
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Households</h1>
+                    <ul class="breadcrumb">
+                        <li>List of Barangays</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="household-data">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bx-receipt'></i>
+                        <h3>Barangays</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-search'></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Contact</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                   <p>Acao</p>
+                                </td>
+                                <td>2387-7346</td>
+                                <td><span class="status completed">Flood</span></td>
+                                </a>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Amirang</p>
+                                </td>
+                                <td>2973-2345</td>
+                                <td><span class="status pending">Landslide</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Amurao</p>
+                                </td>
+                                <td>2362-2345</td>
+                                <td><span class="status process">No Hazardous</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Anuang</p>
+                                </td>
+                                <td>1242-2145</td>
+                                <td><span class="status process">No Hazardous</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Ayaman</p>
+                                </td>
+                                <td>1241-3533</td>
+                                <td><span class="status process">No Hazardous</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Bacan</p>
+                                </td>
+                                <td>2323-2235</td>
+                                <td><span class="status process">No Hazardous</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Balabag</p>
+                                </td>
+                                <td>3452-3423</td>
+                                <td><span class="status process">No Hazardous</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Baluyan</p>
+                                </td>
+                                <td>(+639)965 728 134</td>
+                                <td><span class="status process">No Hazardous</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Banguit</p>
+                                </td>
+                                <td>3423-1235</td>
+                                <td><span class="status pending">Landslide</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <td>
+                                    <p>Bulay</p>
+                                </td>
+                                <td>(+639)234 213 678</td>
+                                <td><span class="status completed">Flood</span></td>
+                            </tr>
+                            <tr onclick="window.location.href = '#';">
+                                <tr>
+                                    <td>
+                                        <p>Cadoldolan</p>
+                                    </td>
+                                    <td>(+639)965 234 765</td>
+                                    <td><span class="status pending">Landslide</span></td>
+                                </tr>
+                                <tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="js/index.js"></script>
+
+</body>
+</html>

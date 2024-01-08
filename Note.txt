@@ -1,0 +1,6 @@
+hex color to be used:
+
+#1b2896
+#EFF0FB
+#1F1574 
+#FFFFFF
